@@ -1,0 +1,31 @@
+@define-color bg #F0EDE8;
+@define-color fg #2D2B28;
+@define-color accent #C62828;
+@define-color accent-secondary #C2185B;
+@define-color muted #8E99A4;
+
+window {
+    background-color: @bg;
+    color: @fg;
+    border: 2px solid @accent;
+    border-radius: 12px;
+    padding: 12px 20px;
+}
+
+progressbar,
+scale trough {
+    background-color: alpha(@fg, 0.1);
+    border-radius: 999px;
+    min-height: 6px;
+}
+
+progressbar progress,
+scale trough highlight {
+    background-color: @accent-secondary;
+    border-radius: 999px;
+    min-height: 6px;
+}
+
+image {
+    color: @accent;
+}

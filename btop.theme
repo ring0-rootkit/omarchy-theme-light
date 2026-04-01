@@ -1,0 +1,92 @@
+# Miraculous Light theme for btop
+# Inspired by Marinette's daytime Paris — sunlit streets and cherry blossoms
+
+# Main background
+theme[main_bg]="#FAFAF8"
+
+# Main text color
+theme[main_fg]="#2D2B28"
+
+# Title color for boxes
+theme[title]="#2D2B28"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#C62828"
+
+# Background color of selected items
+theme[selected_bg]="#E8D5DC"
+
+# Foreground color of selected items
+theme[selected_fg]="#C2185B"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#8E99A4"
+
+# Color of text appearing on top of graphs
+theme[graph_text]="#6B7280"
+
+# Background color of the meter/bar
+theme[meter_bg]="#E0D8D0"
+
+# Misc colors for processes box
+theme[proc_misc]="#0277BD"
+
+# CPU box outline color
+theme[cpu_box]="#C62828"
+
+# Memory/disks box outline color
+theme[mem_box]="#C2185B"
+
+# Net up/down box outline color
+theme[net_box]="#0277BD"
+
+# Processes box outline color
+theme[proc_box]="#6A1B9A"
+
+# Box divider line and target outline color
+theme[div_line]="#E0D8D0"
+
+# Temperature graph colors
+theme[temp_start]="#2E7D32"
+theme[temp_mid]="#B8860B"
+theme[temp_end]="#C62828"
+
+# CPU graph colors
+theme[cpu_start]="#C2185B"
+theme[cpu_mid]="#C62828"
+theme[cpu_end]="#8B0000"
+
+# Mem/Disk free meter
+theme[free_start]="#F0EDE8"
+theme[free_mid]="#E0D8D0"
+theme[free_end]="#8E99A4"
+
+# Mem/Disk cached meter
+theme[cached_start]="#CE93D8"
+theme[cached_mid]="#6A1B9A"
+theme[cached_end]="#4A148C"
+
+# Mem/Disk available meter
+theme[available_start]="#4FC3F7"
+theme[available_mid]="#0277BD"
+theme[available_end]="#01579B"
+
+# Mem/Disk used meter
+theme[used_start]="#F48FB1"
+theme[used_mid]="#C2185B"
+theme[used_end]="#AD1457"
+
+# Download graph colors
+theme[download_start]="#0277BD"
+theme[download_mid]="#4FC3F7"
+theme[download_end]="#CE93D8"
+
+# Upload graph colors
+theme[upload_start]="#C2185B"
+theme[upload_mid]="#C62828"
+theme[upload_end]="#8B0000"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#C2185B"
+theme[process_mid]="#B8860B"
+theme[process_end]="#C62828"
